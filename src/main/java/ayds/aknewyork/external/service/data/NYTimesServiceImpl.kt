@@ -1,7 +1,8 @@
-package ayds.aknewyork.external.service
+package ayds.aknewyork.external.service.data
 
-import ayds.aknewyork.external.service.ArtistDataExternal.ArtistWithDataExternal
-import ayds.aknewyork.external.service.ArtistDataExternal.EmptyArtistDataExternal
+import ayds.aknewyork.external.service.data.entities.ArtistDataExternal.ArtistWithDataExternal
+import ayds.aknewyork.external.service.data.entities.ArtistDataExternal.EmptyArtistDataExternal
+import ayds.aknewyork.external.service.data.entities.ArtistDataExternal
 import java.io.IOException
 
 interface NYTimesService {

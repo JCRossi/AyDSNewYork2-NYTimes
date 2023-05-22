@@ -1,4 +1,4 @@
-package ayds.aknewyork.external.service
+package ayds.aknewyork.external.service.data.entities
 
 sealed class ArtistDataExternal {
 

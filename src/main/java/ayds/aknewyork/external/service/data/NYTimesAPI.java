@@ -1,4 +1,4 @@
-package ayds.aknewyork.external.service;
+package ayds.aknewyork.external.service.data;
 
 
 import retrofit2.Call;
