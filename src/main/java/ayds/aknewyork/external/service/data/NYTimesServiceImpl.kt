@@ -27,7 +27,7 @@ class NYTimesServiceImpl(
         }
         else{
             val response = getInfoFromAPI(artistName)
-            ArtistWithDataExternal(artistName, infoArtist, nyTimesToArtistResolver.getURL(response), false)
+            ArtistWithDataExternal(artistName, infoArtist, nyTimesToArtistResolver.getURL(response))
         }
     }
 
